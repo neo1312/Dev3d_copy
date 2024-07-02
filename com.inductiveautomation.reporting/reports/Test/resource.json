@@ -1,0 +1,16 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "data.bin"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "MPS",
+      "timestamp": "2024-06-20T14:28:52Z"
+    },
+    "lastModificationSignature": "2e29f25418b76ad1d8afdf8f7afc60533bee3a6af9cc4f13e241732dfc6180ed"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "UpdateQuery",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "a8893ef12c7eb87e64b4b5b599d6dfdf6b250cd1eb680c9ac563b5f652356ec1",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "MPS",
+      "timestamp": "2024-06-20T14:28:52Z"
+    },
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "chart_path",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "start_date",
+        "sqlType": 8
+      },
+      {
+        "type": "Parameter",
+        "identifier": "instance_id",
+        "sqlType": 7
+      },
+      {
+        "type": "QueryString",
+        "identifier": "table_name",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "parent",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "running_time",
+        "sqlType": 3
+      },
+      {
+        "type": "Parameter",
+        "identifier": "active_steps",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "state",
+        "sqlType": 2
+      }
+    ]
+  }
+}

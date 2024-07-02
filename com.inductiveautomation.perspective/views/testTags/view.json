@@ -1,0 +1,71 @@
+{
+  "custom": {},
+  "params": {
+    "tag_provider": "[default]"
+  },
+  "propConfig": {
+    "params.tag_provider": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "events": {
+          "component": {
+            "onActionPerformed": {
+              "config": {
+                "script": "\tvalor\u003dself.props.selected\n\tsystem.tag.writeAsync(\u0027[Sample_Tags]Press_2/AGTC_FPA10_1/LocOccupied_PLCTOSM\u0027, valor)"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "ToggleSwitch"
+        },
+        "position": {
+          "height": 36,
+          "width": 96,
+          "x": 373,
+          "y": 238
+        },
+        "props": {
+          "selected": true
+        },
+        "type": "ia.input.toggle-switch"
+      },
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 32,
+          "width": 146,
+          "x": 322,
+          "y": 353
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[Sample_Tags]Press_2/AGTC_FPA10_1/LocOccupied_PLCTOSM"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

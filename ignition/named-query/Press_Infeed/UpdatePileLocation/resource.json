@@ -1,0 +1,60 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "UpdateQuery",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "2c8404f97df6f6899e69a44ba8cfbe21d73c4029320eb71e2021e2f25491c300",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "MPS",
+      "timestamp": "2024-06-20T14:28:51Z"
+    },
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "serial",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "pile",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "location",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "sequence",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "pileSequence",
+        "sqlType": 2
+      }
+    ]
+  }
+}
